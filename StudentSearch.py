@@ -5,7 +5,7 @@ def searchrecord():
         con = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="Deepak21",
+            passwd="Enter your db password",
             database="college"
         )
 
@@ -49,5 +49,6 @@ def searchrecord():
         if 'con' in locals() and con.is_connected():
             con.close()
             print("✅ MySQL connection closed")
+
 
 
