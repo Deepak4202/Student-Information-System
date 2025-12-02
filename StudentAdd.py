@@ -6,7 +6,7 @@ def addstudentrecord():
         con = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="Deepak21",
+            passwd="Enter your db password",
             database="college"
         )
 
@@ -54,4 +54,5 @@ def addstudentrecord():
             con.close()
             print("✅ MySQL connection closed")
     print("*"*50)
+
 
