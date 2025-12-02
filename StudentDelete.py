@@ -5,7 +5,7 @@ def deleterecord():
         con = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="Deepak21",
+           passwd="Enter your db password",
             database="college"
         )
 
@@ -60,5 +60,6 @@ def deleterecord():
         if 'con' in locals() and con.is_connected():
             con.close()
             print("✅ MySQL connection closed")
+
 
 
